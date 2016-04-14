@@ -1,28 +1,40 @@
-name: madebyryan
-favicon: null
-layout_spectrum: 0.024322235258296132
-typography_spectrum: 0.3390866373665631
-cta:
-  domain: null
-  bucket: null
-  version: null
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+layout_spectrum: 0.02432223525829613
+cta:
+  bucket: null
+  version: null
+  domain: null
 color:
+  saturation: 0.4264335983898491
+  brandStrength: 0.03043784992769361
+  rhythmicContrast: 0.03070570388808846
   brandColors:
     - '#3C493F'
     - '#7E8D85'
     - '#B3BFB8'
     - '#F0F7F4'
     - '#A2E3C4'
-  brandStrength: 0.030437849927693605
   lightness: 0.06931622861884534
-  saturation: 0.42643359838984907
-  rhythmicContrast: 0.030705703888088465
 purpose: []
+favicon: null
+name: madebyryan
+typography_spectrum: 0.3390866373665631
